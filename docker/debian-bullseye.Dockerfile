@@ -17,7 +17,7 @@
 #   docker build -t google-fhe-transpiler -f docker/debian-bullseye.Dockerfile .
 #   docker run --rm -i -t google-fhe-transpiler bash
 
-FROM debian:bullseye-20220527
+FROM debian:bullseye
 
 # Install required packages.
 RUN apt-get update && apt-get install -y \
