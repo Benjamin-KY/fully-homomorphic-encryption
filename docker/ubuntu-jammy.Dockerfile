@@ -17,7 +17,7 @@
 #   docker build -t google-fhe-transpiler -f docker/ubuntu-jammy.Dockerfile .
 #   docker run --rm -i -t google-fhe-transpiler bash
 
-FROM ubuntu:jammy-20221101
+FROM ubuntu:rolling
 
 # Install required packages.
 RUN apt-get update && apt-get install -y \
